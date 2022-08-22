@@ -11,7 +11,7 @@ const veiculosDataRoutes = require('../routes/veiculosData')
 const api_key = process.env.API_KEY;
 const app = express();
 
-    mongoose.connect(`mongodb+srv://ivsonsoares:${api_key}@cluster0.axkjwwx.mongodb.net/node-angular?retryWrites=true&w=majority`)
+    mongoose.connect(`mongodb+srv://ivsonsoares:Z2HjgpgCpt0K4thZ@cluster0.axkjwwx.mongodb.net/node-angular?retryWrites=true&w=majority`)
   .then(() => {
     console.log('Connected to database!');
   })
